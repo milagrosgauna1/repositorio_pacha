@@ -87,12 +87,11 @@ footer{
     color: white;
 }
 
-.div__experiencias{
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-    display: flex;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 100px 100px 100px;
+.experiencias{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    color: aqua;
+    padding: 0px;
+    margin: 0px;
 }
